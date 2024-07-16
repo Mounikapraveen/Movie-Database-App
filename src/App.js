@@ -54,7 +54,7 @@ const App = () => {
       <div className="App d-flex flex-column">
         <Switch>
           <Route exact path="/" component={Popular} />
-          <Route exact path="/top_rated" component={TopRated} />
+          <Route exact path="/top-rated" component={TopRated} />
           <Route exact path="/upcoming" component={Upcoming} />
           <Route exact path="/search" component={SearchQuery} />
         </Switch>
